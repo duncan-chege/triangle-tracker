@@ -12,9 +12,10 @@ body{
   margin-left: 40%;
 }
 hr{
-width: 40%;
+position: absolute;
+width: 300px;
 margin-left: 0em;
-margin-bottom: 2em;
+margin-top: -0.9em;
 height: 1px;
 background-color: #4C6154;
 border: none;
@@ -27,5 +28,5 @@ border: none;
   color: #E9BB64;
 }
 #result{
-  margin-left: 4.5em;
+  margin-left: 1.5em;
 }
