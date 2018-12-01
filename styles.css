@@ -3,7 +3,26 @@ html{
   background-size: cover;
   height: 100%;
 }
+body{
+  font-family: 'Optima' cursive, sans-serif;
+  color: #614613;
+}
 .main{
   margin-top: 13em;
   margin-left: 40%;
+}
+hr{
+width: 40%;
+margin-left: 0em;
+margin-bottom: 2em;
+height: 1px;
+background-color: #4C6154;
+border: none;
+}
+#content{
+  margin-left: 4.5em;
+}
+.btn{
+  margin-left: 1em;
+  color: #E9BB64;
 }
