@@ -1,0 +1,8 @@
+html{
+  background: linear-gradient(#E1A22B,#E9BB64) no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+.main{
+  margin:50%;
+}
