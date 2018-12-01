@@ -13,7 +13,7 @@ function triangleType(sides){
 if(sideA == sideB== sideC){
   document.getElementById("result").innerHTML="Equilateral Triangle";
 }else if(sideA==sideB!==sideC ||sideA!==sideB==sideC ||sideA==sideC!==sideB){
-    
+  document.getElementById("result").innerHTML="Isosceles Triangle";
 }else if(sideA!==sideB!==sideC){
 
 }else{
