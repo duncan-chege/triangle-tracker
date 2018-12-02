@@ -1,4 +1,6 @@
 
+var sides=[];
+
 
 function triangleType(){
  var sideA=parseInt(document.getElementById("txt1").value);  /*value property
@@ -10,7 +12,7 @@ if(sideA+sideB<=sideC || sideC+sideB<=sideA || sideA+sideC<=sideB){
   document.getElementById("result").innerHTML="Not a Triangle";
 }else if(sideA == sideB && sideB == sideC){
   document.getElementById("result").innerHTML="Equilateral Triangle";
-}else if(sideB==sideC || sideA==sideC|| sideA==sideB){
+}else if(sideB==sideC || sideA==sideC|| sideA==sideB){  //chain your comparisons together with logical operators,
   document.getElementById("result").innerHTML="Isosceles Triangle";
 }else{
   document.getElementById("result").innerHTML="Scalene Triangle";
