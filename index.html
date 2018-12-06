@@ -1,24 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title> Types of Triangles</title>
+
+<head>
+  <meta charset="utf-8">
+  <title> Types of Triangles</title>
   <link href="styles.css" rel="stylesheet" type="text/css">
-  </head>
-  <body>
-    <div class="main">
-      <h1>ENTER VARIABLES</h1>
-      <hr>
-        <div id="content">
+</head>
+
+<body>
+  <div class="main">
+    <h1>ENTER VARIABLES</h1>
+    <hr>
+    <div id="content">
       <p>Vector length of side X: <input type="number" id="txt1" size="10" min="1" required></p>
       <p>Vector length of side Y: <input type="number" id="txt2" size="10" min="1" required></p>
       <p>Vector length of side Z: <input type="number" id="txt3" size="10" min="1" required></p>
 
-      <p class="btn"><button onclick="triangleType()"><b>Display Triangle type</b>
-      </button></p>
-      <p id="result"</p>
-      </div>
+      <button onclick="triangleType()" class="btn"><b>Display Triangle type</b>
+      </button>
+      <p id="result" </p>
     </div>
-      <script src="sides.js"></script>
-  </body>
+  </div>
+  <script src="sides.js"></script>
+</body>
+
 </html>
